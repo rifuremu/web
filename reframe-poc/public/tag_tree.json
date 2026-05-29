@@ -1,0 +1,275 @@
+{
+  "version": "1.0",
+  "emotions": [
+    {
+      "tag_id": "anger",
+      "label": "怒り",
+      "valence": "negative",
+      "prompt": "怒りを感じているのは、何を守ろうとしているからですか？",
+      "children": [
+        {
+          "tag_id": "approval",
+          "label": "承認を守る",
+          "prompt": "承認を守るのは、あなたにとって何が根底にありますか？",
+          "children": [
+            {
+              "tag_id": "sc_001",
+              "label": "私は認められるべき存在だ",
+              "type": "system_concept"
+            },
+            {
+              "tag_id": "sc_002",
+              "label": "私は正しくあるべき存在だ",
+              "type": "system_concept"
+            }
+          ]
+        },
+        {
+          "tag_id": "justice",
+          "label": "正義を貫く",
+          "prompt": "正義を貫くのは、あなたにとって何が根底にありますか？",
+          "children": [
+            {
+              "tag_id": "sc_003",
+              "label": "私は正義ある存在だ",
+              "type": "system_concept"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag_id": "sadness",
+      "label": "悲しみ",
+      "valence": "negative",
+      "prompt": "悲しみの奥には、何を失わないようにしている感覚がありますか？",
+      "children": [
+        {
+          "tag_id": "love",
+          "label": "愛を守る",
+          "prompt": "愛を守るのは、あなたにとって何が根底にありますか？",
+          "children": [
+            {
+              "tag_id": "sc_004",
+              "label": "私は愛されるべき存在だ",
+              "type": "system_concept"
+            }
+          ]
+        },
+        {
+          "tag_id": "connection",
+          "label": "つながりを守る",
+          "prompt": "つながりを守るのは、あなたにとって何が根底にありますか？",
+          "children": [
+            {
+              "tag_id": "sc_005",
+              "label": "私は一人でない存在だ",
+              "type": "system_concept"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag_id": "anxiety",
+      "label": "不安",
+      "valence": "negative",
+      "prompt": "不安を感じているのは、何を保とうとしているからですか？",
+      "children": [
+        {
+          "tag_id": "safety",
+          "label": "安全を守る",
+          "prompt": "安全を守るのは、あなたにとって何が根底にありますか？",
+          "children": [
+            {
+              "tag_id": "sc_006",
+              "label": "私は守られるべき存在だ",
+              "type": "system_concept"
+            }
+          ]
+        },
+        {
+          "tag_id": "future",
+          "label": "未来を守る",
+          "prompt": "未来を守るのは、あなたにとって何が根底にありますか？",
+          "children": [
+            {
+              "tag_id": "sc_007",
+              "label": "私は安定した存在だ",
+              "type": "system_concept"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag_id": "humiliation",
+      "label": "屈辱",
+      "valence": "negative",
+      "prompt": "屈辱を感じているのは、何を守ろうとしているからですか？",
+      "children": [
+        {
+          "tag_id": "dignity",
+          "label": "尊厳を守る",
+          "prompt": "尊厳を守るのは、あなたにとって何が根底にありますか？",
+          "children": [
+            {
+              "tag_id": "sc_008",
+              "label": "私は尊重されるべき存在だ",
+              "type": "system_concept"
+            }
+          ]
+        },
+        {
+          "tag_id": "value",
+          "label": "価値を守る",
+          "prompt": "価値を守るのは、あなたにとって何が根底にありますか？",
+          "children": [
+            {
+              "tag_id": "sc_009",
+              "label": "私は価値ある存在だ",
+              "type": "system_concept"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag_id": "jealousy",
+      "label": "嫉妬",
+      "valence": "negative",
+      "prompt": "嫉妬を感じているのは、何を守ろうとしているからですか？",
+      "children": [
+        {
+          "tag_id": "self",
+          "label": "自分を守る",
+          "prompt": "自分を守るのは、あなたにとって何が根底にありますか？",
+          "children": [
+            {
+              "tag_id": "sc_010",
+              "label": "私は十分な存在だ",
+              "type": "system_concept"
+            }
+          ]
+        },
+        {
+          "tag_id": "possession",
+          "label": "所有を守る",
+          "prompt": "所有を守るのは、あなたにとって何が根底にありますか？",
+          "children": [
+            {
+              "tag_id": "sc_011",
+              "label": "私は充たされるべき存在だ",
+              "type": "system_concept"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag_id": "loneliness",
+      "label": "孤独",
+      "valence": "negative",
+      "prompt": "孤独を感じているのは、何を求めているからですか？",
+      "children": [
+        {
+          "tag_id": "belonging",
+          "label": "所属を守る",
+          "prompt": "所属を守るのは、あなたにとって何が根底にありますか？",
+          "children": [
+            {
+              "tag_id": "sc_012",
+              "label": "私は受け入れられる存在だ",
+              "type": "system_concept"
+            }
+          ]
+        },
+        {
+          "tag_id": "understanding",
+          "label": "理解を守る",
+          "prompt": "理解を守るのは、あなたにとって何が根底にありますか？",
+          "children": [
+            {
+              "tag_id": "sc_013",
+              "label": "私はわかってもらえる存在だ",
+              "type": "system_concept"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag_id": "joy",
+      "label": "喜び",
+      "valence": "positive",
+      "prompt": "喜びの奥には、何を大切にしている感覚がありますか？",
+      "children": [
+        {
+          "tag_id": "achievement",
+          "label": "達成感",
+          "prompt": "達成感の根底には、あなたにとって何がありますか？",
+          "children": [
+            {
+              "tag_id": "sc_014",
+              "label": "私は成長し続ける存在だ",
+              "type": "system_concept"
+            }
+          ]
+        },
+        {
+          "tag_id": "satisfaction",
+          "label": "満足感",
+          "prompt": "満足感の根底には、あなたにとって何がありますか？",
+          "children": [
+            {
+              "tag_id": "sc_015",
+              "label": "私は充実した存在だ",
+              "type": "system_concept"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag_id": "refresh",
+      "label": "清々しさ",
+      "valence": "positive",
+      "prompt": "清々しさの奥には、何を大切にしている感覚がありますか？",
+      "children": [
+        {
+          "tag_id": "liberation",
+          "label": "解放感",
+          "prompt": "解放感の根底には、あなたにとって何がありますか？",
+          "children": [
+            {
+              "tag_id": "sc_016",
+              "label": "私は自由な存在だ",
+              "type": "system_concept"
+            }
+          ]
+        },
+        {
+          "tag_id": "freshness",
+          "label": "爽快感",
+          "prompt": "爽快感の根底には、あなたにとって何がありますか？",
+          "children": [
+            {
+              "tag_id": "sc_017",
+              "label": "私は軽やかな存在だ",
+              "type": "system_concept"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "goal_emotions": [
+    { "tag_id": "refreshing", "label": "清々しさ" },
+    { "tag_id": "proud", "label": "誇らしさ" },
+    { "tag_id": "happy", "label": "嬉しさ" },
+    { "tag_id": "fun", "label": "楽しさ" },
+    { "tag_id": "comfortable", "label": "気持ちいい" },
+    { "tag_id": "cute", "label": "かわいい" },
+    { "tag_id": "cool", "label": "かっこいい" }
+  ]
+}
