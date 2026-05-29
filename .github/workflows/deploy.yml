@@ -18,17 +18,13 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: |
-          cd reframe-poc
-          npm install
+        run: npm install
 
       - name: Build
-        run: |
-          cd reframe-poc
-          npm run build
+        run: npm run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./reframe-poc/dist
+          publish_dir: ./dist

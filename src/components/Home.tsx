@@ -12,7 +12,7 @@ export default function Home() {
 
   return (
     <div className="text-center space-y-6">
-      <h1 className="text-3xl font-bold text-gray-800">Reframe</h1>
+      <h1 className="text-3xl font-bold text-gray-800">Rifuremu</h1>
       <p className="text-sm text-gray-600">
         このWebアプリでは、入力した内容は保存されません。気軽に試せるPoC版です。
       </p>
