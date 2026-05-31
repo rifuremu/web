@@ -2,6 +2,8 @@
 
 プロスペクト理論の損失回避バイアスを、PCT（知覚制御理論）とMOL（Method of Levels）のフレームワークで相殺するトレーニングWebアプリのPoC版です。
 
+- **リポジトリ**: https://github.com/rifuremu/web
+
 **⚠️ 注意**: このアプリは入力した内容を一切保存しません。ページをリロードするとすべてのデータが失われます。
 
 ## 技術スタック
@@ -53,6 +55,8 @@ npm run preview
 ## デプロイ
 
 `main` ブランチへの push 時に、GitHub Actions によって GitHub Pages へ自動デプロイされます。
+
+- **公開URL**: https://rifuremu.github.io/web/
 
 ## 画面フロー
 

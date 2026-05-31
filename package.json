@@ -2,6 +2,11 @@
   "name": "rifuremu",
   "private": true,
   "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rifuremu/web.git"
+  },
+  "homepage": "https://rifuremu.github.io/web/",
   "type": "module",
   "scripts": {
     "dev": "vite",
